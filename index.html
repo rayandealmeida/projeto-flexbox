@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, use-scalable=0" />
+        <title> MediCenter </title>
+        <link rel="stylesheet" typle="text/css" href="assets/css/template.css" />
+        <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click",function()
+            {
+                if(document.querySelector(".menu nav ul").style.display == 'flex')
+                {
+                    document.querySelector(".menu nav ul").style.display ='none';
+                }
+                else
+                {
+                     document.querySelector(".menu nav ul").style.display ='flex';
+                }
+             });
+            };
+        
+        </script>
+    </head>
+    <body>
+
+        <header> <!--Layout - cabeçalho-->
+            <div class="container">
+                <div class="logo">
+                    <a href=""><img src="assets/images/logotipo2.png" /></a>
+                </div>
+                <div class="menu">
+                    <nav> 
+                        <div class="menuMobile">
+                            <div class="mn_line"></div>
+                            <div class="mn_line"></div>
+                            <div class="mn_line"></div>
+                        </div>
+                        <ul>
+                            <li class="active"><a href="">Home</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Consultas</a></li>
+                            <li><a href="">Exames</a></li>
+                            <li><a href="">Atendimento</a></li>
+                            <li><a href="">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section id="banner"> <!-- Banner -->
+            <div class="container column">
+                <div class="banner_headline">
+                    <h1>Experiência de alto nível</h1>
+                    <h2>Itaipu Med é um modelo responsivo perfeito para todos os tamanhos de tela</h2>
+                </div>
+                <div class="banner_option">
+                    <div class="banner1">
+                        <div class="banner_title"> Caso de emergência </div>
+                        <div class="banner_desc">Algumas informações </div>
+                        <a href="">Mais informações</a>
+                        
+                    </div>
+                    <div class="banner2">
+                        <div class="banner_title">Agendar consulta Médica</div>
+                        <div class="banner_desc">Algumas informações </div>
+                        <a href="">Mais informações</a>
+                    </div>
+                    <div class="banner3">
+                        <div class="banner_title"> Horário de Funcionamento</div>
+                        <div class="banner_hours">
+                            <div class="item1">
+                            <h2>Segunda - Sexta</h2>
+                            <h3> 08:00 - 17:00</h3>
+                            
+                            </div>
+                            <div class="item2">
+                            <h2>Sábado </h2>
+                            <h3> 09:30 - 17:30</h3>
+                            </div>
+                            <div class="item3">
+                            <h2>Domingo</h2>
+                            <h3> 09:30 - 15:00</h3>
+                           </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="geral"> <!-- Conteudo-->
+            <div class="container">
+                <section> <!-- Conteudo-->
+                    <div class="widget" >
+                        <div class="widget_title"> <!-- Titulo do conteudo-->
+                                <div class="widget_title_text"> Últimas Noticias</div>
+                                <div class="widget_title_bar"></div>
+                         </div>
+                         <div class="widget_body flex"> <!-- Corpo do conteudo-->
+                           <article>
+                               <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">01 DEC 20</div>
+                                        <div class="news_coments"> 2 </div>
+                                    </div>
+                                    <div class="news_thumbnail" >
+                                        <img src="assets/images/dr.jpg" />
+                                    </div>
+                                    <div class="news_title">
+                                        Este é um texto de exemplo
+                                    </div>
+                                    <div class="news_resume">
+                                        O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.                                   
+                                     </div>
+                                 </a>
+                           </article>
+
+                           <article>
+                            <a href="">
+                                 <div class="news_data">
+                                     <div class="news_posted_at">02 DEC 20</div>
+                                     <div class="news_coments"> 23 </div>
+                                 </div>
+                                 <div class="news_thumbnail" >
+                                     <img src="assets/images/dr.jpg" />
+                                 </div>
+                                 <div class="news_title">
+                                    Este é um texto de exemplo
+                                 </div>
+                                 <div class="news_resume">
+                                    O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.                                 
+                                </div>
+                              </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                 <div class="news_data">
+                                     <div class="news_posted_at">03 DEC 20</div>
+                                     <div class="news_coments"> 4 </div>
+                                 </div>
+                                 <div class="news_thumbnail" >
+                                     <img src="assets/images/dr.jpg" />
+                                 </div>
+                                 <div class="news_title">
+                                    Este é um texto de exemplo
+                                 </div>
+                                 <div class="news_resume">
+                                    O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
+                                 </div>
+                              </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                 <div class="news_data">
+                                     <div class="news_posted_at">04 DEC 20</div>
+                                     <div class="news_coments"> 10 </div>
+                                 </div>
+                                 <div class="news_thumbnail" >
+                                     <img src="assets/images/dr.jpg" />
+                                 </div>
+                                 <div class="news_title">
+                                    Este é um texto de exemplo
+                                 </div>
+                                 <div class="news_resume">
+                                    O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
+                                 </div>
+                              </a>
+                        </article>
+                         </div>
+                    </div>
+               
+               
+                </section>
+
+
+
+
+                <aside> <!-- Conteudos lateral-->
+                    <div class="widget" >
+                        <div class="widget_title"> <!-- Titulo do conteudo-->
+                                <div class="widget_title_text"> Departamentos</div>
+                                <div class="widget_title_bar"></div>
+                         </div>
+                         <div class="widget_body"> <!-- Corpo do conteudo-->
+                                    <div class="deparments">
+                                        <div class="quadrado">
+                                            <div></div>
+                                        </div>
+                                        <div class="quadrado2">
+                                            <div></div>
+                                        </div>
+                                        <div class="quadrado3">
+                                            <div></div>
+                                        </div>
+                                        <div class="quadrado4">
+                                            <div></div>
+                                        </div>
+                                        <div class="quadrado5">
+                                            <div></div>
+                                        </div>
+                                        <div class="quadrado6">
+                                            <div></div>
+                                        </div>
+
+                         </div>
+                    </div>
+
+                    <aside> <!-- Conteudos segundários-->
+                        <div class="widget" >
+                            <div class="widget_title"> <!-- Titulo do conteudo-->
+                                    <div class="widget_title_text"> Marque uma consulta</div>
+                                    <div class="widget_title_bar"></div>
+                             </div>
+                             <div class="widget_body flex"> <!-- Corpo do conteudo-->
+                                <div class="information">
+                                    <div class="txt_inicial">Entre em contato agora para marcar sua proxima consulta: </div>
+                                    <div class="infor_number">Telefone: <div class="tel">21 2610-3508</div></div>
+                                    <div class="infor_email">E-mail atendimento@itaipumed.com</div>
+                                </div>
+
+                             </div>
+                        </div>
+                </aside>
+            </div>
+        </section>
+
+        <footer> <!-- Rodapé-->
+            <div class="container flexColumn">
+               <div class="footer_menu">
+                    <div class="fm_1">
+                        <div class="fm_title">Plano de Saúde</div>
+                        <div class="fm_desc">Aqui no Itaipu Med temos</div>
+                    </div>
+                    <div class="fm_2">
+                        <div class="fm_title">Registros médicos</div>
+                        <div class="fm_desc">Aqui no Itaipu Med temos</div>
+                    </div>
+                    <div class="fm_3">
+                        <div class="fm_title">Atendimento Online</div>
+                        <div class="fm_desc">Aqui no Itaipu Med temos</div>
+                    </div>
+               </div>
+
+               <div class="footer_area">
+                    <div class="footer_areaitem">
+                        
+                        <div class="widget" >
+                            <div class="widget_title"> <!-- Titulo do conteudo-->
+                                    <div class="widget_title_text"> Itaipu Med</div>
+                                    <div class="widget_title_bar"></div>
+                            </div>
+                             <div class="widget_body"> <!-- Corpo do conteudo-->
+                                <div class="top_1">
+                                    <div class="top_desc">
+                                    No Itaipu Med, pretendemos criar medicamentos que melhorem a qualidade e a duração da vida dos pacientes.
+                                    </div>
+                                    <div class="top_end">
+                                    Rua Doutor Mário Vianna
+                                    Rio de Janeiro,
+                                    Brasil
+                                    34252-443
+                                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_areaitem">
+                        <div class="widget" >
+                            <div class="widget_title"> <!-- Titulo do conteudo-->
+                                    <div class="widget_title_text">Postes Recentes</div>
+                                    <div class="widget_title_bar"></div>
+                             </div>
+                             <div class="widget_body"> <!-- Corpo do conteudo-->
+
+                            <div class="post_recent">
+                                <a href=""> 
+                                <div class="post_">
+                                    Mauricio de souza é novo médico do Medicenter
+                                </div>
+                                <div class="post_data">
+                                    1 mês atrás
+                                </div>
+                                <div class="post_">
+                                    Novos procedimentos cirurgicos já estão sendo trocados por uma nova tecnologia
+                                </div>
+                                <div class="post_data">
+                                    1 semana atrás
+                                </div>
+                                <div class="post_">
+                                    Diretor do Hospital afirma que o os setores isolados para o novo CORONAVIRUS está sendo preparado o mais rapido possivel
+                                </div>
+                                <div class="post_data">
+                                    1 hora atrás
+                                </div>
+                                </a>
+                            </div>
+                             </div> 
+                        </div>
+                    </div>
+                    <div class="footer_areaitem">
+                        <div class="widget" >
+                            <div class="widget_title"> <!-- Titulo do conteudo-->
+                                    <div class="widget_title_text"> Recentes Tweet</div>
+                                    <div class="widget_title_bar"></div>
+                             </div>
+                             <div class="widget_body"><!-- Corpo do conteudo-->
+                                <div class="tweet">
+
+                                    <div class="top_desc">
+                                        #ITAIPUMED Existem muitas variações de passagens de Lorem Ipsum disponíveis, mas a maioria sofreu
+                                    </div>
+                                    <div class="top_desc">
+                                        #ITAIPUMED Hospital sendo reformado para #COVID-19
+                                    </div>
+                                    <div class="top_desc">
+                                        Hospital @Itaipu_MED está contratando enfermeiros urgente para COVID-19
+                                    </div>
+
+                                </div>
+                             </div> 
+                            
+                        </div>
+                    </div>
+               </div>
+
+
+               <div class="footer_copy">
+                   Copyright - Todos os direitos reservados © by Rayan Almeida
+               </div>
+            </div>
+        </footer>
+
+
+    </body>
+</html>
